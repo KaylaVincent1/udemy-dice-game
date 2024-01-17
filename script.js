@@ -1,9 +1,9 @@
 var randomNumber1 = Math.floor(Math.random() * 6 + 1);
 var randomNumber2 = Math.floor(Math.random() * 6 + 1);
 // randomNumber1 = 3;
-
-document.querySelector(".img1").setAttribute("src", "../Dicee Challenge - Starting Files/images/dice"+ randomNumber1 +".png");
-document.querySelector(".img2").setAttribute("src", "../Dicee Challenge - Starting Files/images/dice"+ randomNumber2 +".png");      
+// document.querySelector(".img1").setAttribute("src","images/dice1.png" )
+document.querySelector(".img1").setAttribute("src", "images/dice" + randomNumber1 + ".png");
+document.querySelector(".img2").setAttribute("src", "images/dice"+ randomNumber2 +".png");      
 
 // simplified into 2 lines :)
 // switch (randomNumber1) {
